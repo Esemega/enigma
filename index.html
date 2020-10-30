@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enigma</title>
+
+    <link rel="stylesheet" href="app.css">
   </head>
   <body>
     <header>
         <h1>Enigma</h1>
     </header>
     <main>
-      <textarea name="message-to-encrypt" id="message-to-encrypt" cols="30" rows="10"></textarea>
-      <button id="encrypt-button">↓ Encrypt ↓</button>
-      <button id="decrypt-button">↑ Decrypt ↑ </button>
-      <textarea name="message-to-decrypt" id="message-to-decrypt" cols="30" rows="10"></textarea>
+      <textarea name="message-to-encrypt" id="message-to-encrypt" cols="30" rows="10" placeholder="Escribe aquí tu mensaje"></textarea>
+      <div class="buttons-container">
+        <button id="encrypt-button">↓ Encrypt ↓</button>
+        <button id="decrypt-button">↑ Decrypt ↑ </button>
+      </div>
+      <textarea name="message-to-decrypt" id="message-to-decrypt" cols="30" rows="10" placeholder="rg,fuwr qdhundefined !h pragqir"></textarea>
     </main>
 
     <script src="app.js"></script>
